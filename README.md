@@ -5,6 +5,13 @@ slightly modified version of the official [Payhawk OpenAPI specification](https:
 
 ## How to use
 
+Install from nuget
+
+```
+dotnet add package PayhawkSDK
+```
+
+
 Create a PayhawkClient instance
 
 ```csharp

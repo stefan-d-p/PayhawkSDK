@@ -7,11 +7,12 @@
         <Authors>Stefan Weber</Authors>
         <Description>Unofficial .NET wrapper of Payhawk public API based on Microsoft Kiota</Description>
         <PackageProjectUrl>https://github.com/stefan-d-p/PayhawkSDK</PackageProjectUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageIcon>Payhawk128.png</PackageIcon>
         <RepositoryUrl>https://github.com/stefan-d-p/PayhawkSDK</RepositoryUrl>
         <PackageTags>payhawk, kiota</PackageTags>
         <Title>Payhawk Public API .NET (Unofficial)</Title>
-        <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
     </PropertyGroup>
 
     <ItemGroup>
@@ -22,6 +23,14 @@
         <PackageReference Include="Microsoft.Kiota.Serialization.Json" Version="1.3.3" />
         <PackageReference Include="Microsoft.Kiota.Serialization.Multipart" Version="1.1.5" />
         <PackageReference Include="Microsoft.Kiota.Serialization.Text" Version="1.2.2" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <None Include="..\LICENSE" Pack="true" PackagePath="\" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
 
     <ItemGroup>
