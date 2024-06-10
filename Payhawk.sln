@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayhawkSDK", "PayhawkSDK\PayhawkSDK.csproj", "{9310596E-F75C-4257-A8A2-75EED3D0F415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayhawkSDK.Test", "PayhawkSDK.Test\PayhawkSDK.Test.csproj", "{6A4BB257-0178-4237-8467-BD18D7CEC00C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9310596E-F75C-4257-A8A2-75EED3D0F415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9310596E-F75C-4257-A8A2-75EED3D0F415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9310596E-F75C-4257-A8A2-75EED3D0F415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9310596E-F75C-4257-A8A2-75EED3D0F415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4BB257-0178-4237-8467-BD18D7CEC00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4BB257-0178-4237-8467-BD18D7CEC00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4BB257-0178-4237-8467-BD18D7CEC00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4BB257-0178-4237-8467-BD18D7CEC00C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
